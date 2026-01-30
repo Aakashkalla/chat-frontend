@@ -6,7 +6,7 @@ const Home = () => {
     const navigate = useNavigate();
     const [roomId, setRoomId] = useState('');
     const [username, setUsername] = useState('');
-    const [createdRoomId, setCreatedRoomId] = useState(''); // ✅ Fixed typo
+    const [createdRoomId, setCreatedRoomId] = useState('');
     const [error, setError] = useState('');
 
     const createRoom = () => {

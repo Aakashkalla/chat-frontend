@@ -2,6 +2,7 @@ export interface Message{
     username : string;
     message : string;
     timestamp : string;
+    system?: boolean;
 }
 
 export interface RoomData{
